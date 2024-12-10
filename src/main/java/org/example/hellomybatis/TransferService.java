@@ -23,4 +23,8 @@ public class TransferService {
     public User getUser(Long userId) {
         return userMapper.findById(userId);
     }
+
+    public User getUserWithTransactions(Long userId) {
+        return userMapper.findUserWithTransactions(userId);
+    }
 }

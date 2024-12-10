@@ -1,7 +1,3 @@
-CREATE DATABASE mydatabase;
-
-USE mydatabase;
-
 CREATE TABLE users
 (
     id      BIGINT AUTO_INCREMENT PRIMARY KEY,

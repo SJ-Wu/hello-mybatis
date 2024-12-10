@@ -24,4 +24,9 @@ public class TransferController {
     public ResponseEntity<User> getUser(@PathVariable Long userId) {
         return ResponseEntity.ok(transferService.getUser(userId));
     }
+
+    @GetMapping("/user/{userId}/transactions")
+    public ResponseEntity<User> getUserWithTransactions(@PathVariable Long userId) {
+        return ResponseEntity.ok(transferService.getUserWithTransactions(userId));
+    }
 }
