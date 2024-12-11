@@ -1,4 +1,4 @@
-package org.example.hellomybatis;
+package org.example.hellomybatis.endpoint.vo;
 
 import java.math.BigDecimal;
 
